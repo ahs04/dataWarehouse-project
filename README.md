@@ -10,7 +10,15 @@ This project is using PostgreSQL to build a data warehouse with ETL processes fo
 
 ### Data Architecture Method
 #### Bronze Level
-- Importing raw, unprocessed data to this level.
+- Importing raw, unprocessed data to this level
 - For identifying and tracing bugs
 - Importing the entire table at once
-- Initializing database, creating tables using DDL, and creating load scripts for each CSV file to the level 
+- Initializing database, creating tables using DDL, and creating load scripts for each CSV file to the level
+
+#### Silver Level
+- Before uploading the files to the silver level, I had to check and know what the data is about
+- Data cleaning by checking for nulls, data integrity, unwanted spaces in strings, and data consistency
+- Able to import data from bronze level by pretty much copying the data types from bronze level but adding columns when needed
+- Validating the changes by running tests and queries
+
+#### Gold Level
