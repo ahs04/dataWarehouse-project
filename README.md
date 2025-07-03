@@ -1,3 +1,5 @@
+![Data Flow Diagram](https://github.com/ahs04/dataWarehouse-project/blob/main/docs/data_flow.png)
+
 # Data Warehouse Project
 This project is using PostgreSQL to build a data warehouse with ETL processes for business ready data for analysis, reporting, and machine learning. This involves using a test dataset and incorporating three layers to go from source layer to the targeted file.
 
