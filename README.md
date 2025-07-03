@@ -22,3 +22,7 @@ This project is using PostgreSQL to build a data warehouse with ETL processes fo
 - Validating the changes by running tests and queries
 
 #### Gold Level
+- Created business level objects by looking and understanding the tables in the silver layer
+- Applying dimension and facts tables for customers, products, and sales for business-ready analysis
+- Constructed views for dimension and fact tables for analysis later in the pipeline
+- Drawed data model, data catalog, and data flow for the data warehouse for visual understanding
